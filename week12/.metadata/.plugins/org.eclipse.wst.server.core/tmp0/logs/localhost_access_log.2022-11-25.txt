@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/Nov/2022:15:51:23 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Nov/2022:15:51:23 +0800] "GET /CGUWeb/html/login.html HTTP/1.1" 200 1893
+0:0:0:0:0:0:0:1 - - [25/Nov/2022:15:51:29 +0800] "POST /CGUWeb/LoginValid HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2022:15:51:29 +0800] "GET /CGUWeb/html/menu1.html HTTP/1.1" 200 666
+0:0:0:0:0:0:0:1 - - [25/Nov/2022:15:51:48 +0800] "GET /CGUWeb/uploadFile?txtFile=C%3A%5CUsers%5Cuser%5Ceclipse%5Cjava-2022-06%5Ceclipse%5Ceclipse.exe&submit=%E9%80%81%E5%87%BA HTTP/1.1" 200 531152

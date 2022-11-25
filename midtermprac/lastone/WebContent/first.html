@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+
+<script>
+function ru1(){
+	var w=document.form1.weight.value;
+	var h=document.form1.hight.value;
+	var h1=h/100;
+	var bmi=w/(h1*h1);
+	document.form1.BMI.value=bmi;
+}
+
+function cl1(){
+	document.form1.weight.value="";
+	document.form1.hight.value="";
+	document.form1.BMI.value="";
+}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="/week6/hello.java">
+  <table width="315" border="1">
+    <tr>
+      <td width="131">身高(cm)</td>
+      <td width="168"><label>
+        <input type="text" name="hight" id="hight" />
+      </label></td>
+    </tr>
+    <tr>
+      <td>體重(kg)</td>
+      <td><label>
+        <input type="text" name="weight" id="weight" />
+      </label></td>
+    </tr>
+    <tr>
+      <td>BMI</td>
+      <td><input type="text" name="BMI" id="BMI" /></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="button" name="run" id="run" value="開始計算" onclick="ru1()"/>
+      </label></td>
+      <td><label>
+        <input type="button" name="cancel" id="cancel" value="清除表單" onclick="cl1()"/>
+      </label></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

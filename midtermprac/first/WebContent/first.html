@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+<script>
+	function run(){
+		var mytext = document.form1.tname.value;
+		alert(mytext);
+	}
+</script>
+</head>
+<body>
+	<form id="form1" name="form1" method="post" action="">
+		你好
+		<label><input type="text" id="tname" name="tname"><br></label>
+		<label><input type="button" id="ok" name="ok" value="確定" onclick="run()"></label>
+	</form>
+</body>
+</html>

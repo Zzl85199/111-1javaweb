@@ -1,0 +1,3 @@
+d001,james,male
+d002,mary,femal
+d003,henry,male

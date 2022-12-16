@@ -1,0 +1,8 @@
+Core Servlets and JavaServer Pages|Marty Hall|Prentice Hall|0130893404|$42.99 
+Enterprise JavaBeans, 3rd Edition|Richard Monson-Haefel|O'Reilly|0596002262|$44.95 
+Java Servlet Programming, 2ed|Jason Hunter, William Crawford|O'Reilly|0596000405|$44.95 
+Java Web Services|David A. Chappell|O'Reilly|0596002696|$39.95
+Java Data Objects|David Jordan, Craig Russell|O'Reilly|0596002769|$39.95 
+Mastering Enterprise JavaBeans, 2e Ed|Roman, Scott W. Ambler, Tyler Jewell|Wiley|0471417114|$45.00 
+EJB Design Patterns|Floyd Marinescu|Wiley|0471208310|$35.00 
+The J2EE Tutorial|Stepanie Bodoff, Dale Green|Addison-Wesley|0201791684|$49.99

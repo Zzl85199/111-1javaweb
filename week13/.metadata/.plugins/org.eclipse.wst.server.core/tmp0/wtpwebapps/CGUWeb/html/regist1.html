@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>註冊頁</title>
+<link rel=stylesheet type="text/css" href="cgu.css">
+<script>
+	function validps(){
+		if (document.getElementById("psw").value==document.getElementById("psw-repeat").value){
+			alert("correct");
+		}else {
+			alert(document.getElementById("psw").value);
+			alert(document.getElementById("psw-repeat").value);
+			alert("password not equals, please retype");
+			document.getElementById("psw").focus();
+		}
+	}
+</script>
+</head>
+<body>
+<form action="/CGUWeb/registMember" method="post">
+  <div class="container">
+    <h1>註冊</h1>
+    <p>請填寫下列內容由申請一個帳號</p>
+    <hr>
+
+    <label for="username"><b>帳號</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+</p>
+    <label for="psw"><b>密碼</b></label>&nbsp;
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+</p>
+    <label for="psw-repeat"><b>再次輸入密碼</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required onFocusout="validps()">
+</p> 
+    <label for="mobile"><b>行動電話</b></label>
+    <input type="text" placeholder="Mobile" name="mobile" id="mobile" required ">
+    <hr>
+
+    <p>建立此帳號代表同意<a href="private.html">我們的條款</a>.</p>
+    <button type="submit" class="registerbtn">註冊</button>
+  </div>
+
+  <div class="container signin">
+    <p>已有帳號了? <a href="login.html">登入</a>.</p>
+  </div>
+</form>
+</body>
+</html>
